@@ -1,0 +1,392 @@
+inherited FrmCadUsuarios: TFrmCadUsuarios
+  Caption = '0010 - CADASTRO DE USUARIO'
+  DesignerMasterStyle = 0
+  inherited lay_Principal: TLayout
+    inherited TabControl1: TTabControl
+      TabIndex = 1
+      Sizes = (
+        930s
+        493s
+        930s
+        493s)
+      inherited TabItem1: TTabItem
+        IsSelected = False
+        ExplicitSize.cx = 69.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        inherited Layout1: TLayout
+          inherited Layout3: TLayout
+            inherited Layout5: TLayout
+              inherited Layout6: TLayout
+                inherited ListView1: TListView
+                  ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+                    item
+                      AppearanceObjectName = 'ID'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 14.000000000000000000
+                      Appearance.TextVertAlign = Leading
+                      Appearance.TextColor = xFF0593FF
+                      Appearance.Width = 127.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 1.000000000000000000
+                      Appearance.PlaceOffset.Y = 25.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'NOME'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 14.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.TextVertAlign = Leading
+                      Appearance.TextColor = xFF0593FF
+                      Appearance.Width = 335.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 128.000000000000000000
+                      Appearance.PlaceOffset.Y = 24.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'USUARIO'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 14.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.TextVertAlign = Leading
+                      Appearance.TextColor = xFF0593FF
+                      Appearance.Width = 169.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 462.000000000000000000
+                      Appearance.PlaceOffset.Y = 24.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'lbl_nome'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 15.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.Width = 337.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 126.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'lbl_id'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 15.000000000000000000
+                      Appearance.Width = 127.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'lbl_usuario'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 15.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.Width = 169.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 454.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'STATUS'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 14.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.TextVertAlign = Leading
+                      Appearance.TextColor = xFF0593FF
+                      Appearance.Width = 169.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 638.000000000000000000
+                      Appearance.PlaceOffset.Y = 24.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'lbl_status'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 15.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.Width = 169.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 632.000000000000000000
+                    end>
+                end
+              end
+            end
+          end
+        end
+        inherited Layout2: TLayout
+          inherited Rectangle2: TRectangle
+            inherited Lay_Novo: TLayout
+              inherited rct_Novo: TRectangle
+                inherited Image2: TImage
+                  MultiResBitmap.Height = 48
+                  MultiResBitmap.Width = 48
+                end
+              end
+            end
+          end
+        end
+      end
+      inherited TabItem2: TTabItem
+        IsSelected = True
+        ExplicitSize.cx = 69.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        inherited Layout4: TLayout
+          inherited Rectangle4: TRectangle
+            inherited lay_Editar: TLayout
+              inherited rct_Editar: TRectangle
+                inherited Image3: TImage
+                  MultiResBitmap.Height = 48
+                  MultiResBitmap.Width = 48
+                  MultiResBitmap = <
+                    item
+                      Width = 48
+                      Height = 48
+                      PNG = {
+                        89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                        87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                        0517494441546843CD9A4B8C144518C777E49128080AF88A4609F8C00422B070
+                        601545C4448D1A0CE1A282273D190E1E35261E4C346AC4478CE0E3E60313E38D
+                        83511351414591C444A331415D5DCDC6D55DF7E1BE67FC7D55FF6EBA7B7A6676
+                        A07A767E49A7BAEBFB4F7DFFAAAEA9EA9EDD52471B512E9737516C2D954AF32A
+                        95CA11CA0F382A3EDAC66076FEF4F4F45B9429A6A6A63EA553E74BD69EE0730E
+                        E6DFF196AB999C9CFC814E5C2479FB81C7C7BCD5DAD089EFE8C405FA487B81B1
+                        054C9543F25A93B6BA131859C371BF2EED7A119DF85C5E6BD216770203EBC7C6
+                        C6FEEAEEEEE6B4BC47D55127BE90D79ACCEA9D2071171E06BC954A459D785061
+                        FB3E2CA6135FFA686D74275ABF3A917BDBC0C0C07FDE8627A713E7D089A33E5A
+                        1B349F50B47E1F2369B04EC0367DA43830B69275FE20E579AA6AA6135FF9683E
+                        E81F91BC184870F9C4C4C46F960C33DF9E4227CEE5F8DA057340FB90A4E1A1F1
+                        2B31FFBB7239B813AF2BECA06A469DA0F3C77CF424D2AD962C2C347C15E67B94
+                        CB8189C3D42F92248650C34E70BE24DB0906E32585C342DBABC6C7C7FFF0693C
+                        24FF0C13674B62863652BD5897CD74E21B8B61FE5D8AB90A8583245763FE4F4B
+                        1291354FD575C3C3C343D4DB7ADF6C279662FE1942F355150E1ACD1B799B36C9
+                        91EF1A19191954D8E2C7A85BA2B0C5AF1F1A1A1A56D8A14EC43B7621906035E6
+                        7B95D381397B964F9ABF36693E427762A16433BA1341A1E186D386F3D4C82761
+                        4ABC467186A40EF4A93B4107A6281E50381C24BAC61ECC7C1ACFE99A8F883AD1
+                        DBDB3B8E66A7AAC341A36B73CCDB737D3C1D64FE5F1F4D83F9FD14F1B30CE7AB
+                        A87B9FCFA4363BAEB7EA321C349C673E3BE737D531FF2A453CF2686DD373FB06
+                        4F9ADF535CA8507848B67E7474F46F4B96E063EA1748D2C8FC3E8A78E4D1E66D
+                        7AC7290A59E7D731F27D3E8DC7469E22396DEA997F852239F25764CDDB1796FA
+                        FB2409078D568D7CD63CE79D68FE71C10C35CCA79E95647EB724E1A06D339635
+                        6F2F14A1CDEF92241CB45D65EC14CC27E77C2DF3F74A120E1AAD5A06B3E6D1D8
+                        D43A5DF3F748128E26CC67572407E653EB3C5A7BB9C9337FB724E1A0D1CD984F
+                        ED9E18FA90E22C494CB311F3FD3E9A06ED8B1459F3EECD2CA2A7A76782FA1D92
+                        8483B63BFBFAFAC67C1A4F93E65FA0489A5F99356F8F07D4DF25495830601B4D
+                        0CD3E610C9929BD4BA3AD326BB495DC6CEFAB38F7AF46CB35D92B0D07089D1EA
+                        769980E43F62E24C85CDD0863A23FF3C4576E4E3B60C8DFC1D9284871C6B7D2A
+                        0FA69E50A8D1C8BF4CD170E4A9BF53926220C1C3CAE7E07AB3EA2FCEBE6D4560
+                        FE398AD83CE72B18F95F5D50F4F7F78FD2C66D921407F3FDB07256186D5BDBE3
+                        072ACEE761620386DF7402E07C2FC54CCCDF224971906B99ADCB3EAD33F7B642
+                        2930B343F1BDAA72507529D3E684C5226C35437FBB24C542A2DDCAEBE03A776B
+                        A77E0DE69FD5A5037995797BAF457BB324C583A903CAED76488A650AA5A03EF5
+                        0AC8F572A6CD2FF6B988C1C1C111CCDF2449F190736E7279E4BB7044A1BA20AD
+                        1AF9969B37487883F23BB87E54A12A08CF21DEC51D7B9C914F3DDBE897842D92
+                        B60ECC3CED2D78B4862F57D83AB894EB9DE8F6677F4289D0C8DFA88FB4160CDB
+                        8B740AEA7EB23B61D329B93AE5411C69F95635D75AC8BFC2DB681E7B54E0AEEC
+                        C3BCFD8BC0EC40F23DF2D310467A9AC2FEE0607F9CEEE48837B15983117C0F23
+                        35B1D509CD013ABA8BCBDCA57556C1DC1BDEEA49EC3B41FD539C6EE108FFFB4C
+                        404A8CEC25987C92F385A552E9238E831C277CB8DDE9E8F81F25654D63163B98
+                        9F0000000049454E44AE426082}
+                      FileName = 'E:\Controle de Patrimonio\Icons\editar.png'
+                    end>
+                end
+              end
+            end
+            inherited lay_Deletar: TLayout
+              inherited rct_Excluir: TRectangle
+                inherited Image4: TImage
+                  MultiResBitmap.Height = 48
+                  MultiResBitmap.Width = 48
+                end
+              end
+            end
+            inherited lay_Salvar: TLayout
+              inherited rct_Salvar: TRectangle
+                OnClick = rct_SalvarClick
+                inherited Image5: TImage
+                  MultiResBitmap.Height = 50
+                  MultiResBitmap.Width = 50
+                  MultiResBitmap = <
+                    item
+                      Width = 50
+                      Height = 50
+                      PNG = {
+                        89504E470D0A1A0A0000000D49484452000000320000003208060000001E3F88
+                        B1000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                        01F4494441546843ED984D56C2301485D1012E47C6EAF6145D8ACE9CB8017523
+                        1C61A20B000AADF7860BE794472934699B73C837495FDEEB4D6E7F42C9209148
+                        9C475114C3F57AFDB2582C6638EE058CFF8A66A829350302CF4EAD6760E61D4D
+                        7333CBE5724AA13CCFEFD4558239A23028922EE6F3F91F5B2F3314200A0D4AB7
+                        6A0417F116667E790C331F886F54723A4E09283428DDD8C86AB5FA968403F1A7
+                        52256D3423AF3BC313894283D28D8DE8F4124A196DAF3BE394804283D2DE46F6
+                        8F89C2927663334E09283428DD9911D2C88C53020A0D4A776A84A07BF7CE8037
+                        7557A3C2E88C10A446CC4F26935C5DD5B090283428DD8B11A2125373ADB6730E
+                        4DC687CE8DE065FDD2A103F1EE772428EEBE018506A5835ECD2D92EEE6D1CAB2
+                        6CC6164BE0BDEB0804E6F6C016FA53D7E1CBC66FF555C1A33056492B40FF5143
+                        1D4465F54F84EA2A0B91E2FF95F1F62B3914D0FBA1091C1EFDA6DA540730D237
+                        9A9E995F6FCB6F689291D8B85C2378CF5ADB65E14AA8E5DD6F07856C248F2EBF
+                        ADEFB2C0CC938633A8C47FF9ADDB65F1815F0BD4E618EA32304F1456A3BA6377
+                        C4A13038923F7BFCB46AC54632121BC9486C2423B1918CC446AD117D11B4F649
+                        528786AF1DFF72EEC89550D8391ABE767C63A4AD0DB810E0093B7D134FFFD0A2
+                        86FB5F9A6E35A86B65032E04A76EE22512897D06837F50C4A587E184BAA70000
+                        000049454E44AE426082}
+                      FileName = 'E:\Controle de Patrimonio\Icons\salvar.png'
+                    end>
+                end
+              end
+            end
+            inherited Layout8: TLayout
+              inherited rct_Cancelar: TRectangle
+                Fill.Color = xFF989898
+                inherited Image6: TImage
+                  MultiResBitmap.Height = 50
+                  MultiResBitmap.Width = 50
+                end
+              end
+            end
+          end
+        end
+        inherited Layout7: TLayout
+          inherited Label5: TLabel
+            TabOrder = 5
+          end
+          object edt_Nome: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            TextSettings.Font.Family = 'Segoe UI SEMIBOLD'
+            TextSettings.Font.Size = 14.000000000000000000
+            Position.X = 72.000000000000000000
+            Position.Y = 80.000000000000000000
+            Size.Width = 537.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'NOME DO USUARIO'
+            StyledSettings = [Style, FontColor]
+            CharCase = ecUpperCase
+          end
+          object edt_Usuario: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 1
+            TextSettings.Font.Family = 'Segoe UI SEMIBOLD'
+            TextSettings.Font.Size = 14.000000000000000000
+            Position.X = 72.000000000000000000
+            Position.Y = 136.000000000000000000
+            Size.Width = 537.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'USUARIO PARA ACESSO AO SISTEMA'
+            StyledSettings = [Style, FontColor]
+            CharCase = ecUpperCase
+          end
+          object edt_Senha: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 2
+            Password = True
+            TextSettings.Font.Family = 'Segoe UI SEMIBOLD'
+            TextSettings.Font.Size = 14.000000000000000000
+            Position.X = 72.000000000000000000
+            Position.Y = 192.000000000000000000
+            Size.Width = 230.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'SENHA'
+            StyledSettings = [Style, FontColor]
+            CharCase = ecUpperCase
+          end
+          object edt_ValidaSenha: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 3
+            Password = True
+            TextSettings.Font.Family = 'Segoe UI SEMIBOLD'
+            TextSettings.Font.Size = 14.000000000000000000
+            Position.X = 376.000000000000000000
+            Position.Y = 192.000000000000000000
+            Size.Width = 230.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'CONFIRME SUA SENHA'
+            StyledSettings = [Style, FontColor]
+            CharCase = ecUpperCase
+          end
+          object Label7: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 72.000000000000000000
+            Position.Y = 112.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Usuairo:'
+            TabOrder = 10
+          end
+          object Label8: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 72.000000000000000000
+            Position.Y = 224.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Status:'
+            TabOrder = 8
+          end
+          object Label9: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 376.000000000000000000
+            Position.Y = 168.000000000000000000
+            Size.Width = 201.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Confirme sua senha:'
+            TabOrder = 6
+          end
+          object Label10: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 72.000000000000000000
+            Position.Y = 56.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Nome:'
+            TabOrder = 9
+          end
+          object cbx_Status: TComboBox
+            Items.Strings = (
+              'INATIVO'
+              'ATIVO')
+            ItemIndex = 0
+            Position.X = 72.000000000000000000
+            Position.Y = 248.000000000000000000
+            Size.Width = 177.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+          end
+          object Label11: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 72.000000000000000000
+            Position.Y = 168.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Senha:'
+            TabOrder = 7
+          end
+        end
+      end
+    end
+    inherited lay_Top: TLayout
+      inherited img_Fechar: TImage
+        MultiResBitmap.Height = 50
+        MultiResBitmap.Width = 50
+      end
+    end
+  end
+end

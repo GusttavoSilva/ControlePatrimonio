@@ -1,0 +1,487 @@
+object FrmMainPesquisa: TFrmMainPesquisa
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = None
+  Caption = 'Form1'
+  ClientHeight = 588
+  ClientWidth = 863
+  Position = ScreenCenter
+  Transparency = True
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnShow = FormCreate
+  DesignerMasterStyle = 0
+  object lay_Principal: TLayout
+    Align = Client
+    Size.Width = 863.000000000000000000
+    Size.Height = 588.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle3: TRectangle
+      Align = Client
+      Fill.Color = claBlack
+      Opacity = 0.600000023841857900
+      Size.Width = 863.000000000000000000
+      Size.Height = 588.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Layout9: TLayout
+      Align = Center
+      Size.Width = 863.000000000000000000
+      Size.Height = 588.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object lay_Top: TLayout
+        Align = Top
+        Size.Width = 863.000000000000000000
+        Size.Height = 73.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Rectangle1: TRectangle
+          Align = Contents
+          Fill.Color = xFFF8AC1A
+          Size.Width = 863.000000000000000000
+          Size.Height = 73.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object lbl_NomeForm: TLabel
+          Align = Right
+          StyledSettings = [Family]
+          Margins.Right = 30.000000000000000000
+          Position.X = 283.000000000000000000
+          Size.Width = 550.000000000000000000
+          Size.Height = 73.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 26.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Trailing
+          Text = 'NomeLayout'
+          TabOrder = 1
+        end
+        object img_Fechar: TImage
+          MultiResBitmap.Height = 50
+          MultiResBitmap.Width = 50
+          MultiResBitmap = <
+            item
+              Width = 50
+              Height = 50
+              PNG = {
+                89504E470D0A1A0A0000000D49484452000000320000003208060000001E3F88
+                B1000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                0158494441546843ED98414EC3400C450337830D8515DC0458B537801D2071DC
+                49F8237D474A98A449FBC318D54FAA46B23D765E4769AA3441100441105C2A6D
+                DB3EA5943EB0DE312407BD7798F1D975DD23435A72637C7A30F0952919B927DB
+                1B7A197C4B5F6CDEA394294874F9F499D681410FEC3F40215392C820BE638916
+                347EE68C01881F58B21AEC7D619B317B966C8352A69A84A190A92E619C23E346
+                C23845C69D84B146C6AD84B144C6BD843127F36F240C5C70F1C15622D7729B4F
+                A64E6684CF931873446613896BAE6AAEB8FE0222933957CCDCD83DA859FC0FA0
+                0AF906E6B51E25D7729B2F664E628FDCE2876655E6245832F903E046668984E1
+                56668D84E14EE61409C38DCC39124675198584514D462961FCB90C1ADF72C600
+                C4B77C1D74C3121D29A56FF6EF5148182519CC7C675A07060D5ED029258CB14C
+                9EC99416CABC61D51F39C9BD39E39EA120088220082E8CA6F90111915EFD312E
+                13CD0000000049454E44AE426082}
+              FileName = 'E:\Controle de Patrimonio\Icons\cancelar.png'
+            end>
+          Align = Left
+          Padding.Bottom = 10.000000000000000000
+          Margins.Left = 30.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 30.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 75.000000000000000000
+          Size.Height = 63.000000000000000000
+          Size.PlatformDefault = False
+          WrapMode = Stretch
+          OnClick = img_FecharClick
+        end
+      end
+      object TabControl1: TTabControl
+        Align = Client
+        Size.Width = 863.000000000000000000
+        Size.Height = 515.000000000000000000
+        Size.PlatformDefault = False
+        TabIndex = 1
+        TabOrder = 1
+        TabPosition = Top
+        Sizes = (
+          863s
+          489s
+          863s
+          489s)
+        object TabItem1: TTabItem
+          CustomIcon = <
+            item
+            end>
+          IsSelected = False
+          Size.Width = 69.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = ''
+          TabOrder = 0
+          Text = 'TabItem1'
+          ExplicitSize.cx = 69.000000000000000000
+          ExplicitSize.cy = 26.000000000000000000
+          object Layout1: TLayout
+            Align = Client
+            Size.Width = 863.000000000000000000
+            Size.Height = 439.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object Layout3: TLayout
+              Align = Client
+              Size.Width = 863.000000000000000000
+              Size.Height = 439.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              object Layout5: TLayout
+                Align = Client
+                Padding.Left = 30.000000000000000000
+                Padding.Top = 30.000000000000000000
+                Padding.Right = 30.000000000000000000
+                Padding.Bottom = 30.000000000000000000
+                Size.Width = 863.000000000000000000
+                Size.Height = 439.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Layout6: TLayout
+                  Align = Client
+                  Size.Width = 803.000000000000000000
+                  Size.Height = 379.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  object ListView1: TListView
+                    ItemAppearanceClassName = 'TDynamicAppearance'
+                    ItemEditAppearanceClassName = 'TDynamicAppearance'
+                    HeaderAppearanceClassName = 'TListHeaderObjects'
+                    FooterAppearanceClassName = 'TListHeaderObjects'
+                    Align = Client
+                    Size.Width = 803.000000000000000000
+                    Size.Height = 379.000000000000000000
+                    Size.PlatformDefault = False
+                    TabOrder = 0
+                    ItemAppearance.ItemHeight = 50
+                    ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+                      item
+                        AppearanceObjectName = 'ID'
+                        AppearanceClassName = 'TTextObjectAppearance'
+                        Appearance.Font.Family = 'Segoe UI Semibold'
+                        Appearance.Font.Size = 14.000000000000000000
+                        Appearance.TextColor = xFF0593FF
+                        Appearance.Width = 127.000000000000000000
+                        Appearance.Height = 25.000000000000000000
+                        Appearance.PlaceOffset.X = 1.000000000000000000
+                        Appearance.PlaceOffset.Y = 25.000000000000000000
+                      end
+                      item
+                        AppearanceObjectName = 'lbl_id'
+                        AppearanceClassName = 'TTextObjectAppearance'
+                        Appearance.Font.Family = 'Segoe UI Semibold'
+                        Appearance.Font.Size = 15.000000000000000000
+                        Appearance.Width = 127.000000000000000000
+                        Appearance.Height = 25.000000000000000000
+                      end>
+                    ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+                      item
+                        AppearanceObjectName = 'Text1'
+                        AppearanceClassName = 'TTextObjectAppearance'
+                      end>
+                    OnItemClick = ListView1ItemClick
+                    SearchVisible = True
+                  end
+                end
+              end
+            end
+          end
+          object Layout2: TLayout
+            Align = Bottom
+            Position.Y = 439.000000000000000000
+            Size.Width = 863.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object Rectangle2: TRectangle
+              Align = Client
+              Fill.Kind = None
+              Size.Width = 863.000000000000000000
+              Size.Height = 50.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Lay_Novo: TLayout
+                Align = Left
+                Margins.Left = 25.000000000000000000
+                Margins.Top = 2.000000000000000000
+                Margins.Bottom = 3.000000000000000000
+                Position.X = 25.000000000000000000
+                Position.Y = 2.000000000000000000
+                Size.Width = 150.000000000000000000
+                Size.Height = 45.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object rct_Novo: TRectangle
+                  Align = Client
+                  Fill.Color = xFF0099DC
+                  Size.Width = 150.000000000000000000
+                  Size.Height = 45.000000000000000000
+                  Size.PlatformDefault = False
+                  XRadius = 10.000000000000000000
+                  YRadius = 10.000000000000000000
+                  OnClick = rct_NovoClick
+                  object Label1: TLabel
+                    Align = Center
+                    StyledSettings = [Style]
+                    Locked = True
+                    Size.Width = 86.000000000000000000
+                    Size.Height = 45.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Family = 'Segoe UI Semibold'
+                    TextSettings.Font.Size = 18.000000000000000000
+                    TextSettings.FontColor = claWhite
+                    Text = 'Novo'
+                    TabOrder = 0
+                  end
+                  object Image2: TImage
+                    MultiResBitmap.Height = 48
+                    MultiResBitmap.Width = 48
+                    MultiResBitmap = <
+                      item
+                        Width = 48
+                        Height = 48
+                        PNG = {
+                          89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                          87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                          00C6494441546843EDD9E10AC22014056017EA5344CF53F41E3D78DB5338B0BC
+                          E314458C581807E57C30BC0A1B9EB11F57E64444FA94733EA794A6728DA53E61
+                          B91DB6F11B94FA8AE5EA068CD5D9C6512E860265553B8CCD5200360560530036
+                          056053003605605B0DF0E8E7977EF80778CC139637FB769E586D71EDC610C21E
+                          53AA799EC718E301D337FD7E42DEFB4B493E614A636FDFF682E9079DC8D81480
+                          4D01D814804D01D814804D01D8FE16E0B515B79618653BEC1868A73AFB3B53EA
+                          23964544BAE2DC1DB404CA1B4D5E773F0000000049454E44AE426082}
+                        FileName = 'E:\Controle de Patrimonio\Icons\adicionar.png'
+                      end>
+                    Align = Left
+                    Locked = True
+                    Margins.Left = 5.000000000000000000
+                    Margins.Top = 5.000000000000000000
+                    Margins.Right = 5.000000000000000000
+                    Margins.Bottom = 5.000000000000000000
+                    Position.X = 5.000000000000000000
+                    Position.Y = 5.000000000000000000
+                    Size.Width = 35.000000000000000000
+                    Size.Height = 35.000000000000000000
+                    Size.PlatformDefault = False
+                    WrapMode = Stretch
+                  end
+                end
+              end
+            end
+          end
+        end
+        object TabItem2: TTabItem
+          CustomIcon = <
+            item
+            end>
+          IsSelected = True
+          Size.Width = 69.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = ''
+          TabOrder = 0
+          Text = 'TabItem2'
+          ExplicitSize.cx = 69.000000000000000000
+          ExplicitSize.cy = 26.000000000000000000
+          object Layout4: TLayout
+            Align = Bottom
+            Position.Y = 439.000000000000000000
+            Size.Width = 863.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object Rectangle4: TRectangle
+              Align = Client
+              Fill.Kind = None
+              Size.Width = 863.000000000000000000
+              Size.Height = 50.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object lay_Salvar: TLayout
+                Align = Left
+                Margins.Left = 30.000000000000000000
+                Margins.Top = 2.000000000000000000
+                Margins.Bottom = 3.000000000000000000
+                Position.X = 30.000000000000000000
+                Position.Y = 2.000000000000000000
+                Size.Width = 150.000000000000000000
+                Size.Height = 45.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object rct_Salvar: TRectangle
+                  Align = Client
+                  Fill.Color = xFF109E00
+                  Size.Width = 150.000000000000000000
+                  Size.Height = 45.000000000000000000
+                  Size.PlatformDefault = False
+                  XRadius = 10.000000000000000000
+                  YRadius = 10.000000000000000000
+                  object Label4: TLabel
+                    Align = Center
+                    StyledSettings = [Style]
+                    Locked = True
+                    Size.Width = 86.000000000000000000
+                    Size.Height = 45.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Family = 'Segoe UI Semibold'
+                    TextSettings.Font.Size = 18.000000000000000000
+                    TextSettings.FontColor = claWhite
+                    Text = 'Salvar'
+                    TabOrder = 0
+                  end
+                  object Image5: TImage
+                    MultiResBitmap.Height = 50
+                    MultiResBitmap.Width = 50
+                    MultiResBitmap = <
+                      item
+                        Width = 50
+                        Height = 50
+                        PNG = {
+                          89504E470D0A1A0A0000000D49484452000000320000003208060000001E3F88
+                          B1000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                          01F3494441546843ED984D56C2301485D1012E47C6EAF6145D0ACE9CB8017527
+                          C2C42E80DFD67BC38573CAA3149AB4CD39E49BA42FEFF526B73FA1649048242E
+                          A3288AE166B3795B2C16331CF702C69FA0196A4ACD80C0AB53EB1998F940D3DC
+                          CC72B99C5228CFF3077595608E280C8AA48BF97C9EB1F5324301A2D0A074AB46
+                          7011EF61E68FC730F389F84E25E7E394804283D28D8DACD7EB1F4938107F2955
+                          D24633F2BA333C91283428DDD8884E2FA194D1F6BA334E09283428ED6DE4F098
+                          282C693736E394804283D29D19218DCC3825A0D0A074A74608BAF7EF0C785777
+                          352A8CCE08416AC47C9665B9BAAA6121516850BA17234425A6E6566DE71C9B8C
+                          0F9D1BC1CBFAAD4307E2FDEF4850DC7D030A0D4A07BD9A3B24DDCDA3B55AAD66
+                          6CB1043EBA8E40606E4F6CA13F751DBE6CFD565F153C0A6395B402F49F35D451
+                          5456FF44A8AEB21029FE5F19EFBE924301BD5F9AC0E1C96FAA6D7500237DA3E9
+                          99F9F5B6FC862619898DEB3582F7ACB55D16AE845ADEFD7650C856F2E4F2DBFA
+                          2E0BCCBC6838834AFC97DFBA5D161FF8B5406D8EA12E03F3446135AA3B75471C
+                          0A8323F98BC74FAB566C2423B1918CC44632121BC9486CD41AD117416B9F2475
+                          68F8DAF1AFE78EDC08859DA3E16BC73746DADA800B019EB0F337F1F40F2D6AB8
+                          FFA5E95683BA5636E04270EE265E2291386430F807A323A5A50622BE8E000000
+                          0049454E44AE426082}
+                        FileName = 'E:\Controle de Patrimonio\Icons\salvar.png'
+                      end>
+                    Align = Left
+                    Locked = True
+                    Margins.Left = 5.000000000000000000
+                    Margins.Top = 5.000000000000000000
+                    Margins.Right = 5.000000000000000000
+                    Margins.Bottom = 5.000000000000000000
+                    Position.X = 5.000000000000000000
+                    Position.Y = 5.000000000000000000
+                    Size.Width = 35.000000000000000000
+                    Size.Height = 35.000000000000000000
+                    Size.PlatformDefault = False
+                    WrapMode = Stretch
+                  end
+                end
+              end
+              object Layout8: TLayout
+                Align = Left
+                Margins.Left = 8.000000000000000000
+                Margins.Top = 2.000000000000000000
+                Margins.Bottom = 3.000000000000000000
+                Position.X = 188.000000000000000000
+                Position.Y = 2.000000000000000000
+                Size.Width = 150.000000000000000000
+                Size.Height = 45.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+                object rct_Cancelar: TRectangle
+                  Align = Client
+                  Fill.Color = xFF7B7B7B
+                  Size.Width = 150.000000000000000000
+                  Size.Height = 45.000000000000000000
+                  Size.PlatformDefault = False
+                  XRadius = 10.000000000000000000
+                  YRadius = 10.000000000000000000
+                  OnClick = rct_CancelarClick
+                  object Label6: TLabel
+                    Align = Center
+                    StyledSettings = [Style]
+                    Locked = True
+                    Size.Width = 86.000000000000000000
+                    Size.Height = 45.000000000000000000
+                    Size.PlatformDefault = False
+                    TextSettings.Font.Family = 'Segoe UI Semibold'
+                    TextSettings.Font.Size = 18.000000000000000000
+                    TextSettings.FontColor = claWhite
+                    Text = 'Cancelar'
+                    TabOrder = 0
+                  end
+                  object Image6: TImage
+                    MultiResBitmap.Height = 50
+                    MultiResBitmap.Width = 50
+                    MultiResBitmap = <
+                      item
+                        Width = 50
+                        Height = 50
+                        PNG = {
+                          89504E470D0A1A0A0000000D49484452000000320000003208060000001E3F88
+                          B1000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                          0158494441546843ED98414EC3400C450337830D8515DC0458B537801D2071DC
+                          49F8237D474A98A449FBC318D54FAA46B23D765E4769AA3441100441105C2A6D
+                          DB3EA5943EB0DE312407BD7798F1D975DD23435A72637C7A30F0952919B927DB
+                          1B7A197C4B5F6CDEA394294874F9F499D681410FEC3F40215392C820BE638916
+                          347EE68C01881F58B21AEC7D619B317B966C8352A69A84A190A92E619C23E346
+                          C23845C69D84B146C6AD84B144C6BD843127F36F240C5C70F1C15622D7729B4F
+                          A64E6684CF931873446613896BAE6AAEB8FE0222933957CCDCD83DA859FC0FA0
+                          0AF906E6B51E25D7729B2F664E628FDCE2876655E6245832F903E046668984E1
+                          56668D84E14EE61409C38DCC39124675198584514D462961FCB90C1ADF72C600
+                          C4B77C1D74C3121D29A56FF6EF5148182519CC7C675A07060D5ED029258CB14C
+                          9EC99416CABC61D51F39C9BD39E39EA120088220082E8CA6F90111915EFD312E
+                          13CD0000000049454E44AE426082}
+                        FileName = 'E:\Controle de Patrimonio\Icons\cancelar.png'
+                      end>
+                    Align = Left
+                    Locked = True
+                    Margins.Left = 5.000000000000000000
+                    Margins.Top = 5.000000000000000000
+                    Margins.Right = 5.000000000000000000
+                    Margins.Bottom = 5.000000000000000000
+                    Position.X = 5.000000000000000000
+                    Position.Y = 5.000000000000000000
+                    Size.Width = 35.000000000000000000
+                    Size.Height = 35.000000000000000000
+                    Size.PlatformDefault = False
+                    WrapMode = Stretch
+                  end
+                end
+              end
+            end
+          end
+          object Layout7: TLayout
+            Align = Center
+            Size.Width = 709.000000000000000000
+            Size.Height = 368.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object Label5: TLabel
+              Align = Top
+              StyledSettings = [Style]
+              Size.Width = 709.000000000000000000
+              Size.Height = 25.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Segoe UI Semibold'
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.FontColor = xFF0290CE
+              TextSettings.HorzAlign = Center
+              Text = 'LAN'#199'AMENTO DE DADOS PARA CADASTRO'
+              TabOrder = 0
+            end
+          end
+        end
+      end
+    end
+  end
+end

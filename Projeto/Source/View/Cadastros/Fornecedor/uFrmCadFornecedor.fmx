@@ -1,0 +1,504 @@
+inherited FrmCadFornecedor: TFrmCadFornecedor
+  Caption = '0016- CADASTRO DE FORNECEDOR'
+  DesignerMasterStyle = 0
+  inherited lay_Principal: TLayout
+    inherited TabControl1: TTabControl
+      TabIndex = 1
+      Sizes = (
+        930s
+        493s
+        930s
+        493s)
+      inherited TabItem1: TTabItem
+        IsSelected = False
+        ExplicitSize.cx = 69.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        inherited Layout1: TLayout
+          inherited Layout3: TLayout
+            inherited Layout5: TLayout
+              inherited Layout6: TLayout
+                inherited ListView1: TListView
+                  ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+                    item
+                      AppearanceObjectName = 'ID'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 14.000000000000000000
+                      Appearance.TextColor = xFF0593FF
+                      Appearance.Width = 127.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 1.000000000000000000
+                      Appearance.PlaceOffset.Y = 25.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'lbl_id'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 15.000000000000000000
+                      Appearance.Width = 127.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'lbl_nome'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI SEMIBOLD'
+                      Appearance.Font.Size = 15.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.Width = 311.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 128.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'lbl_telefone'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI SEMIBOLD'
+                      Appearance.Font.Size = 15.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.Width = 167.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 440.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'lbl_cidade'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI SEMIBOLD'
+                      Appearance.Font.Size = 15.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.Width = 200.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 608.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'NOME'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 14.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.TextColor = xFF0593FF
+                      Appearance.Width = 311.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 128.000000000000000000
+                      Appearance.PlaceOffset.Y = 24.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'TELEFONE'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 14.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.TextColor = xFF0593FF
+                      Appearance.Width = 167.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 440.000000000000000000
+                      Appearance.PlaceOffset.Y = 24.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'CIDADE'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 14.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.TextColor = xFF0593FF
+                      Appearance.Width = 200.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 608.000000000000000000
+                      Appearance.PlaceOffset.Y = 24.000000000000000000
+                    end>
+                  ItemAppearanceObjects.FooterObjects.Text.Width = 777.000000000000000000
+                end
+              end
+            end
+          end
+        end
+        inherited Layout2: TLayout
+          inherited Rectangle2: TRectangle
+            inherited Lay_Novo: TLayout
+              inherited rct_Novo: TRectangle
+                inherited Image2: TImage
+                  MultiResBitmap.Height = 48
+                  MultiResBitmap.Width = 48
+                end
+              end
+            end
+          end
+        end
+      end
+      inherited TabItem2: TTabItem
+        IsSelected = True
+        ExplicitSize.cx = 69.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        inherited Layout4: TLayout
+          inherited Rectangle4: TRectangle
+            inherited lay_Editar: TLayout
+              inherited rct_Editar: TRectangle
+                inherited Image3: TImage
+                  MultiResBitmap.Height = 48
+                  MultiResBitmap.Width = 48
+                  MultiResBitmap = <
+                    item
+                      Width = 48
+                      Height = 48
+                      PNG = {
+                        89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                        87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                        0515494441546843CD9A4B8C144518C777E49128080AF88A4609286202115838
+                        B08A2262A2468D867051C1939E0C078F1A130F261A35E22346F071F38189F1C6
+                        C1A889A8A0A26862A2D19020F8DC8DABBBEEC37DCFF8FBAAFEDD74F7F4CCEC40
+                        F5ECFC924E75D7F79FFAFE555D53D53DBBA58E36A25C2E6FA4D8522A95E6542A
+                        9543941F70547CB48DC1ECDCA9A9A9B728534C4E4E7E4AA7CE97AC3DC1E72CCC
+                        BFE32D57333131F1239DB848F2F6038F8F79ABB5A113DFD3890BF491F60263F3
+                        982A07E4B5266D752730B29AE37E5DDAF5023AF1B9BCD6A42DEE0406D68D8E8E
+                        FED5DDDDCD697997AAA34E7C21AF3599D13B41E22E3CF47B2B958A3AF1A0C2F6
+                        7D584827BEF4D1DAE84EB47E7522F7D6FEFEFEFFBC0D4F4E27CEA113877DB436
+                        683EA168FD3E46D2609D80ADFA4871606C39EBFC7ECAF354D54C27BEF2D17CD0
+                        3F22793190E0F2F1F1F15F2D1966BE3B854E9CCBF1B50BE680F62149C343E32B
+                        30FF9B7239B813AF2BECA06A5A9DA0F3477CF424D2AD922C2C347C25E67F572E
+                        07260E52BF409218420D3BC1F9A26C27188C97140E0B6DAF1C1B1BFBC3A7F190
+                        FC334C9C2D8919DA40F5425D36D3896F2C86F97729662B140E925C85F93F2D49
+                        44D63C55D70E0D0D0D526FEB7DB39D588CF96708CD55553868346FE46DDA2447
+                        BE6B78787840618B1FA16E91C216BF6E7070704861873A11EFD88540825598EF
+                        514E07E6EC593E69FE9AA4F908DD89F9924DEB4E0485861B4E1BCE53239F8429
+                        F11AC519923AD0A7EE041D98A47840E17090E86A7B30F3693CA76B3E22EA444F
+                        4FCF189AEDAA0E078DAEC9316FCFF5F17490F97F7D340DE6F752C4CF329CAFA4
+                        EE7D3E93DAECB8DEA2CB70D0709EF9EC9CDF58C7FCAB14F1C8A3B54DCFED1B3C
+                        69FE4071A142E121D9BA919191BF2D59828FA99F274923F37B28E291479BB7E9
+                        7D4B51C83ABF9691EFF5693C36F214C96953CFFC2B14C991BF226BDEBEB0D4DF
+                        27493868B46AE4B3E639EF44F38F0B66A8613EF5AC24F33B2509076D9BB1AC79
+                        7BA1086D7E8724E1A0ED2A63A7603E39E76B99BF579270D068D53298358FC6A6
+                        D6E99ABF47927034613EBB2239309F5AE7D1DACB4D9EF9BB2509078D6EC27C6A
+                        F7C4D087146749629A0D98EFF3D134685FA4C89A776F6611981FA77E9B24E1A0
+                        EDCEDEDEDE519FC6D3A4F9172892E69767CDDBE301F5774912160CD84613C3B4
+                        3940B2E426B5B6CEB4C96E5297B1B3FEECA31E3DDBDC29495868B8C468FDE232
+                        01C97FC2C4990A9BA1F57546FE798AECC8C76D191AF9DB25090F39D6F8541E4C
+                        3DA150A3917F99A2E1C8537F8724C540828795CFC1F526D55F9C7DDB8AC0FC73
+                        14B179CE9731F2275C50F4F5F58DD0C6AD921407F3FDA07256186D5BDBE3072A
+                        CEE760623D86DF7402E07C37C574CCDF2C4971906B89ADCB3EAD33F7B6422930
+                        B34DF1DDAA72507529D3E698C5226C35437F9B24C542A29DCAEBE03A776BA77E
+                        35E69FD5A5037995797BAF457B9324C583A97DCAED76488A250AA5A03EF50AC8
+                        F552A6CD71FB5CC4C0C0C030E66F94A478C8393BB93CF25D38A4505D90568D7C
+                        CBCD1B24BC5EF91D5C3FAA5015846711EFE28E3DCEC8A79E6DF44BC266495B07
+                        669EF6163C5AC3972A6C1D5CCCF576747BB33FA14468E46FD0475A0B86ED453A
+                        057547ED4ED8744AAE4E7910475ABE45CDB516F22FF3369AC71E15B82B7B306F
+                        FF223033907C97FC3484919EA2B03F38D81FA73B39E24D6CC66004DFC3484D6C
+                        7542B38F8EEEE03277699D5130F786B77A12FB4E50FF14A79B39C2FF3E139012
+                        237B09269FE47C7EA954FA88633FC7311F6E773A3AFE07AE314F2E40C1625C00
+                        00000049454E44AE426082}
+                      FileName = 'E:\Controle de Patrimonio\Icons\editar.png'
+                    end>
+                end
+              end
+            end
+            inherited lay_Deletar: TLayout
+              inherited rct_Excluir: TRectangle
+                inherited Image4: TImage
+                  MultiResBitmap.Height = 48
+                  MultiResBitmap.Width = 48
+                end
+              end
+            end
+            inherited lay_Salvar: TLayout
+              inherited rct_Salvar: TRectangle
+                OnClick = rct_SalvarClick
+                inherited Image5: TImage
+                  MultiResBitmap.Height = 50
+                  MultiResBitmap.Width = 50
+                  MultiResBitmap = <
+                    item
+                      Width = 50
+                      Height = 50
+                      PNG = {
+                        89504E470D0A1A0A0000000D49484452000000320000003208060000001E3F88
+                        B1000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                        01F4494441546843ED985D52C2301485D1075C8E3CABDB537429FAE68B1B5077
+                        220C33BA00A0D07A4E3830532EA5D0A46D66C8F792DEDCDB939CFE8492412291
+                        388FA22886EBF5FA65B1584C71DC0B18FF15CD50536A06049E9D5ACFC0CC3B9A
+                        E66696CBE58442799EDFA9AB0473446150245DCCE7F33FB65E662840141A946E
+                        D5082EE22DCCFCF218663E10DFA8E4749C12506850BAB191D56AF52D0907E24F
+                        A54ADA68465E778627128506A51B1BD1E9259432DA5E77C629018506A5BD8DEC
+                        1F138525EDC6669C12506850BA3323A49119A704141A94EED40841F7EE9D016F
+                        EAAE4685D11921488D989FCD66B9BAAA6121516850BA17234425A6E65A6DE71C
+                        9A8C0F9D1BC1CBFAA54307E2DDEF4850DC7D030A0D4A07BD9A5B24DDCDA39565
+                        D9942D96C07BD71108CCED812DF427AEC3978DDFEAAB824761AC925680FEA386
+                        3A88CAEA9F08D5551622C5FF2BE3ED577228A0F74313383CFA4DB5A90E60A46F
+                        343D33BFDE96DFD02423B171B946F09EB5B6CBC29550CBBBDF0E0AD9481E5D7E
+                        5BDF658199270D675089FFF25BB7CBE203BF16A8CD31D465609E28AC4675C7EE
+                        88436170247FF6F869D58A8D6424369291D84846622319898D5A23FA2268ED93
+                        A40E0D5F3BFEE5DC912BA1B073347CEDF8C6485B1B7021C01376FA269EFEA145
+                        0DF7BF34DD6A50D7CA065C084EDDC44B2412FB0C06FF4F00A5994465ACD60000
+                        000049454E44AE426082}
+                      FileName = 'E:\Controle de Patrimonio\Icons\salvar.png'
+                    end>
+                end
+              end
+            end
+            inherited Layout8: TLayout
+              inherited rct_Cancelar: TRectangle
+                inherited Image6: TImage
+                  MultiResBitmap.Height = 50
+                  MultiResBitmap.Width = 50
+                end
+              end
+            end
+          end
+        end
+        inherited Layout7: TLayout
+          inherited Label5: TLabel
+            TabOrder = 7
+          end
+          object edt_Nome: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            TextSettings.Font.Family = 'Segoe UI SEMIBOLD'
+            TextSettings.Font.Size = 14.000000000000000000
+            Position.X = 72.000000000000000000
+            Position.Y = 64.000000000000000000
+            Size.Width = 537.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'NOME DO DEPARTAMENTO'
+            StyledSettings = [Style, FontColor]
+            CharCase = ecUpperCase
+          end
+          object Label10: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 72.000000000000000000
+            Position.Y = 40.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Nome:'
+            TabOrder = 14
+          end
+          object Label9: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 72.000000000000000000
+            Position.Y = 208.000000000000000000
+            Size.Width = 97.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'ID Cidade'
+            TabOrder = 12
+          end
+          object edt_IdCidade: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 5
+            TextSettings.Font.Family = 'Segoe UI SEMIBOLD'
+            TextSettings.Font.Size = 14.000000000000000000
+            Position.X = 72.000000000000000000
+            Position.Y = 240.000000000000000000
+            Size.Width = 97.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'ID'
+            StyledSettings = [Style, FontColor]
+            CharCase = ecUpperCase
+            OnChangeTracking = edt_IdCidadeChangeTracking
+          end
+          object Image7: TImage
+            MultiResBitmap.Height = 64
+            MultiResBitmap.Width = 64
+            MultiResBitmap = <
+              item
+                Width = 64
+                Height = 64
+                PNG = {
+                  89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+                  DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  04FD49444154785EED9A578824551440C79CC0B0E680828AE0A2A29830238811
+                  4510D40F13AB2266041131A062404405C50F3120EAA71F4614654D28E69C0326
+                  141531E7ACE74CD7854BD16CF74C57E8E9AD0387EAA99EAEAAF7EA855BF7D554
+                  4747474747C7E2CB12C5B64A96C66D7067DC1C37C2957159FC1EBFC2F7F0797C
+                  127FC489604BBC0E2DE07F43FA27DE8B87E0923827F12EDF87FF62BF420EEBFB
+                  783836CA285DC0A67E219E85CBB823616116E20BC5679BB915B41EAE8D9BE21E
+                  B80B2E859947F068FC6CFAAF31654DB4FFE63BF807DE82DBE1B0AC8367E31798
+                  8FF535EE8563C986F82EE60B7E00BDABB36545BC041D13E29856E861385678E7
+                  73E1BDE053B1DC95EC12DEC1ABF16E7C066D31F37151EC809F601CFF2F3C00C7
+                  02FB7C6EF63FE3BE985909CFC7EF30FE2F7B3D0E627D7C03E3379E6750C53582
+                  4D342ECA3B5F2EFC3EF839C6FF94F56E3ADD0DC3BAF821C66F5FC7E5B135BC03
+                  B97F9E869993D102C6F7FA015E8507E38EB83ACE842DF0578CE39D8BADE13C1F
+                  17F220E63E7F12C6776A1F3E02AB086C1C5FE2B87685B5B0718CF022C8B1156C
+                  8681035DBEF38FE24CEFF4A230467815E3F81763E318DEC605DCEA8E02FBE4C7
+                  18DF3D8EC6FB557328C639BEC472E0542B8EFC39B6779A0ACEC4D8EFE0E71459
+                  0716380FAE8D0648DB639CD8412D700CF814E3BBE3B04EAEC538D715EE688AD3
+                  314E7C833B0A76C2D86F185B77B33C08E37C4FB9A32A068DD43EE9050E46C1DE
+                  C556EEC47F7A1F6BE395622BF99A4666500598CC081C80821CF71BE6D68DE7F6
+                  EECBAAB84AEFE3E80CAA003339814D3DC81563C456374EBFDFF63E4ED35805E4
+                  BEEDD359F06CB1751A7CB1F7B1767E2FB6E2ECD4080F630C3EFBBBA3C059606B
+                  CC2DA44EBC513914AF2C221CD40272BFF70125F0221C989A4A68AE819175B222
+                  BEE97D1C9D411560F636D8A4D8B6413EF74758D9AC33A8029E2BB6B27BB16D83
+                  DD8AAD984E6F0CFB78F4BDBFD1A4661B3C8DD1FF8F75479398B78F939FE38E12
+                  97A18FAA974EFF553DE622F2D3A8E341A398C5890A3016308199F909FDAEAE01
+                  D127D038FF5DEE681A630173FB7111E56772EFBC9560CAAC6AB64507BC38B7EB
+                  08ADE08A4D5C84CDD01457DD2C872F639CD7AC54ABE4A0C847E3BAD35337639C
+                  CFDC60CE44B5C206E88A4D5C94217095E9AF8C036B9C474FC4B1C06C8CCF0471
+                  616F61950192CDFE46CC8577B96DAC70B92A27427FC06370948556D90A6D55B9
+                  F04EC1E585D7B1C0E52AE7FE7CB1666AF6C39956842DC86C53795DC13B6FE1AD
+                  18A7BF3370AC304071C5265FB43A653A35EE89AB619915D0458F53D0A57023CC
+                  FCFBDF30F7F98730BEBB129D0AAD0CCD49DA5630357E1EFE82B910590BE46289
+                  E385AFC8F4FB9FF07E2C8FF69763BFFF0DEFC1CA1224B3C529D14028525733D1
+                  B8C226BE2BF6C340EC76ECF7DBD0044DEB95205EAC3385A96BC704D358E58B75
+                  1679076FC30538CC54EA31E3F78E15A6C96FC2FC5A8E9560BE70ECF089D2972A
+                  36461F64669342BF00A3A0D7B8A3E0049C1395302ABE8B1485CCEB13B2585482
+                  EF2244019D358EC4CCC4578299AB9C14B1128EC2CCC4578249D9B7310AE863B2
+                  1168A65C09BED253C78A756BF85ADD9B982BC1992453AE84F2DB2C731E638E1C
+                  815A09E5D5E98B30BE7FCC1D9386EF22B82E912BE1780C72DC60043A911840BD
+                  8451509BBDD3A585379D1FFB7D4F71629987BE8F1C85EDE78138D138D53D81FD
+                  0ADFE8DB246D62DEC0D7F5CC5BBE8677607E89A3A3A3A3A3A3A3A3CCD4D4FF20
+                  B6DE0B7F60389B0000000049454E44AE426082}
+                FileName = 'E:\Controle de Patrimonio\Projeto\Icons\search.png'
+              end>
+            Position.X = 172.000000000000000000
+            Position.Y = 240.000000000000000000
+            Size.Width = 40.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            OnClick = Image7Click
+          end
+          object edt_Cidade: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 6
+            ReadOnly = True
+            TextSettings.Font.Family = 'Segoe UI SEMIBOLD'
+            TextSettings.Font.Size = 14.000000000000000000
+            Position.X = 216.000000000000000000
+            Position.Y = 240.000000000000000000
+            Size.Width = 393.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'NOME DA CIDADE E ESTADO'
+            StyledSettings = [Style, FontColor]
+            CharCase = ecUpperCase
+          end
+          object Label11: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 216.000000000000000000
+            Position.Y = 216.000000000000000000
+            Size.Width = 185.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Cidade:'
+            TabOrder = 8
+          end
+          object edt_Telefone: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 1
+            TextSettings.Font.Family = 'Segoe UI SEMIBOLD'
+            TextSettings.Font.Size = 14.000000000000000000
+            Position.X = 72.000000000000000000
+            Position.Y = 120.000000000000000000
+            Size.Width = 217.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'TELEFONE (SEM PONTOS)'
+            StyledSettings = [Style, FontColor]
+            CharCase = ecUpperCase
+            OnExit = edt_TelefoneExit
+          end
+          object Label7: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 72.000000000000000000
+            Position.Y = 96.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Telefone:'
+            TabOrder = 13
+          end
+          object edt_CpfCnpj: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 2
+            TextSettings.Font.Family = 'Segoe UI SEMIBOLD'
+            TextSettings.Font.Size = 14.000000000000000000
+            Position.X = 376.000000000000000000
+            Position.Y = 120.000000000000000000
+            Size.Width = 233.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'CPF/CNPJ (SEM PONTOS)'
+            StyledSettings = [Style, FontColor]
+            CharCase = ecUpperCase
+            OnExit = edt_CpfCnpjExit
+          end
+          object Label8: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 376.000000000000000000
+            Position.Y = 96.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'CPF/CPNJ'
+            TabOrder = 10
+          end
+          object edt_Endereco: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 3
+            TextSettings.Font.Family = 'Segoe UI SEMIBOLD'
+            TextSettings.Font.Size = 14.000000000000000000
+            Position.X = 72.000000000000000000
+            Position.Y = 176.000000000000000000
+            Size.Width = 321.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'ENDERE'#199'O'
+            StyledSettings = [Style, FontColor]
+            CharCase = ecUpperCase
+          end
+          object Label12: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 72.000000000000000000
+            Position.Y = 152.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Endere'#231'o:'
+            TabOrder = 11
+          end
+          object Label13: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 424.000000000000000000
+            Position.Y = 152.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Bairro:'
+            TabOrder = 9
+          end
+          object edt_Bairros: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 4
+            TextSettings.Font.Family = 'Segoe UI SEMIBOLD'
+            TextSettings.Font.Size = 14.000000000000000000
+            Position.X = 424.000000000000000000
+            Position.Y = 176.000000000000000000
+            Size.Width = 185.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'BAIRRO'
+            StyledSettings = [Style, FontColor]
+            CharCase = ecUpperCase
+          end
+        end
+      end
+    end
+    inherited lay_Top: TLayout
+      inherited img_Fechar: TImage
+        MultiResBitmap.Height = 50
+        MultiResBitmap.Width = 50
+      end
+    end
+  end
+end

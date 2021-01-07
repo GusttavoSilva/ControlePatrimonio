@@ -1,0 +1,239 @@
+inherited FrmCadTipoPatrimonio: TFrmCadTipoPatrimonio
+  Caption = 'FrmMainCadastros1'
+  DesignerMasterStyle = 0
+  inherited lay_Principal: TLayout
+    inherited TabControl1: TTabControl
+      TabIndex = 1
+      Sizes = (
+        930s
+        493s
+        930s
+        493s)
+      inherited TabItem1: TTabItem
+        IsSelected = False
+        ExplicitSize.cx = 69.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        inherited Layout1: TLayout
+          inherited Layout3: TLayout
+            inherited Layout5: TLayout
+              inherited Layout6: TLayout
+                inherited ListView1: TListView
+                  ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+                    item
+                      AppearanceObjectName = 'ID'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 14.000000000000000000
+                      Appearance.TextColor = xFF0593FF
+                      Appearance.Width = 127.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 1.000000000000000000
+                      Appearance.PlaceOffset.Y = 25.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'lbl_id'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 15.000000000000000000
+                      Appearance.Width = 127.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'lbl_nome'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 15.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.Width = 600.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 128.000000000000000000
+                    end
+                    item
+                      AppearanceObjectName = 'NOME'
+                      AppearanceClassName = 'TTextObjectAppearance'
+                      Appearance.Font.Family = 'Segoe UI Semibold'
+                      Appearance.Font.Size = 14.000000000000000000
+                      Appearance.TextAlign = Leading
+                      Appearance.TextColor = xFF0593FF
+                      Appearance.Width = 600.000000000000000000
+                      Appearance.Height = 25.000000000000000000
+                      Appearance.PlaceOffset.X = 129.000000000000000000
+                      Appearance.PlaceOffset.Y = 24.000000000000000000
+                    end>
+                end
+              end
+            end
+          end
+        end
+        inherited Layout2: TLayout
+          inherited Rectangle2: TRectangle
+            inherited Lay_Novo: TLayout
+              inherited rct_Novo: TRectangle
+                inherited Image2: TImage
+                  MultiResBitmap.Height = 48
+                  MultiResBitmap.Width = 48
+                end
+              end
+            end
+          end
+        end
+      end
+      inherited TabItem2: TTabItem
+        IsSelected = True
+        ExplicitSize.cx = 69.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        inherited Layout4: TLayout
+          inherited Rectangle4: TRectangle
+            inherited lay_Editar: TLayout
+              inherited rct_Editar: TRectangle
+                inherited Image3: TImage
+                  MultiResBitmap.Height = 48
+                  MultiResBitmap.Width = 48
+                  MultiResBitmap = <
+                    item
+                      Width = 48
+                      Height = 48
+                      PNG = {
+                        89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                        87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                        0512494441546843CD9A4B8C144518C777E49128080AF88A4609286202115838
+                        B08A2262A2468D867011C1939E0C078F1A130F261A35E22346F071F38189F1C6
+                        C1A889A8E0134D4C341A13109F31BAEEBA0F77661F33FEBEAA7F37DD3D3D333B
+                        503D3BBFA4535DF57D53DFBFBEAAA9EA9EDD524F1751AD5637526C29954A736A
+                        B5DA61CA77B96ADEDAC52076EED4D4D4EB94292627273F6250E7CAAD3B41E72C
+                        C4BFE925D7333131F13D83B840EEDD071A1FF6521BC320BE6510E7E923DD05C2
+                        E6B1540E4A6B43BA6A2610B29AEB1E55ADBE80417C22AD0DE98A9940C0BA72B9
+                        FC577F7F3FB7D5DD6A8E06F1A9B43664466782C07D6818F4526A350DE23E99ED
+                        FBB090417CE6AD8DD14C747E7722F6D6C1C1C1FFBC0C4FCE20CE62109F7B6B63
+                        F0F990A2F3E71841830D02B6EA23C581B0E5ECF30728CF51533B83F8C25BF3C1
+                        FF41B91703012E1D1F1FFFC58221E69B9318C4D95C5F3A630EF8DE2FD7F0D0F9
+                        0AC4FFAA580E66E215991D344D6B100CFE88B79E407EABE416163ABE1CF1BF29
+                        96031187685F2097184C2D07C1FDA2EC2048C6F3328785BE57562A95DF7D180F
+                        C13F46C4997231411B685EA86A3B83F8CA6C887F8B62B64CE120C81588FFC382
+                        4464C5D374F5C8C8C830EDB6DFB73B88C5887F12D35C3585834EF3326FCB2699
+                        F9BED1D1D12199CD7E84B645329BFD9AE1E1E111991D1A447C621702015621FE
+                        4FC57420CE9EE593E2AF4A8A8FD04CCC97DBB466222874DC72D9709FCA7C1296
+                        C4CB14A7C9D5817F6A2618C024C5BD3287834057DA83990FE33955F111D12010
+                        5FC167BB9AC341A76B72C4DB737DBC1C24FE5F6F4D83F87D14F1B30CF72B697B
+                        87CFA40E3BEA5B540D071DE789CFAEF98D4DC4BF4411671E5F3BF4DCB9C193E6
+                        7714E7CB141E82AD1B1B1BEBB760093EA07D9E5C5A89DF4B11671EDFBC43EF6B
+                        8A42F6F9B564FE6F1FC66399A7482E9B66E25FA44866FEB2AC78FBC2D27EB75C
+                        C241A77599CF8AE7BE179F7F9C314303F1A9672589DF259770D0B709CB8AB717
+                        8AD0E277CA251CF45D27EC24C427D77C23F177C9251C745AB70D66C5E3634BEB
+                        54C5EF904B38DA109FDD911C884FEDF3F8DACB4D9EF83BE5120E3ADD84F8D4E9
+                        89A0F728CE908BF96C40FC80B7A6C1F7398AAC78F7661681F871DAB7C9251CF4
+                        DD4BE7651FC6D3A6F8672992E297E788AFD07E875CC282003B68625836070996
+                        3CA4D6365936D943EA124ED663DEEA31F114B7CB252C745C225B3FBB4840F01F
+                        1071BACC26687D93CC3F4391CD7CDC97A1CCDF2A97F010638D0FE541D4A332B5
+                        CAFC0B142D334FFB6D722906023CA0780EEA9BD47E61F66D2B02F14F53C4E2B9
+                        5F46E68F3BA318181818A38F9BE5521CACF7438A5923DBB6B7C70F54DCCF41C4
+                        7A04BFE61C80FB3D14D3117FA35C8A83584B98667BF37120EE0D995220669BEC
+                        7BD4E4A0E96296CD51B345D05F19FF5BE4522C04DAA5B80EEAB9473BEDAB11FF
+                        94AA0EDCEBC4DB7B2DBE37C8A57810B55FB12D7336134B644A417BEA1590FA52
+                        96CD4FF6B988A1A1A151C45F2F97E221E6ECE4F6C877E1B04C4DC1B52EF31D17
+                        6F10F05AC577507F48A63A30CFC2DEC78C3D42E653CF36FA2561B35C3B07629E
+                        F0123CDAC397CA6C035C4C7D3B7EFBB23FA14428F3D7E9239D05C1F6229D82B6
+                        1F6D266C392577A73CB0E35ABD49DD7516E22FF332DAC71E159895BD88B77F11
+                        981908BE5B7A5A42A6A728EC0F0EF6C7E95EAEF8109B31C8E0DB086988ED4EF8
+                        EC67A03BA9E66EAD330AE25EF5524F60DF09DA1FE7763357F8DF67025222B317
+                        21F231EEE7974AA5F7B90E701DF5E66EA7A7E77F345950F6C88FA0D900000000
+                        49454E44AE426082}
+                      FileName = 'E:\Controle de Patrimonio\Icons\editar.png'
+                    end>
+                end
+              end
+            end
+            inherited lay_Deletar: TLayout
+              inherited rct_Excluir: TRectangle
+                inherited Image4: TImage
+                  MultiResBitmap.Height = 48
+                  MultiResBitmap.Width = 48
+                end
+              end
+            end
+            inherited lay_Salvar: TLayout
+              inherited rct_Salvar: TRectangle
+                OnClick = rct_SalvarClick
+                inherited Image5: TImage
+                  MultiResBitmap.Height = 50
+                  MultiResBitmap.Width = 50
+                  MultiResBitmap = <
+                    item
+                      Width = 50
+                      Height = 50
+                      PNG = {
+                        89504E470D0A1A0A0000000D49484452000000320000003208060000001E3F88
+                        B1000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                        01F3494441546843ED984D56C2301485D1012E47C6EAF6145D8ACE9CB8017527
+                        C244990385D67BC38573CAA3149AB4CD39E49BA42FEFF526B73FA164904824CE
+                        A3288AE17ABD7E592C16531CF702C67F4533D4949A018167A7D63330F38EA6B9
+                        99E57239A1509EE777EA2AC11C5118144917F3F9FC8FAD97190A108506A55B35
+                        828B780B33BF3C86990FC4372A391DA704141A946E6C64B55A7D4BC281F853A9
+                        92369A91D79DE18944A141E9C646747A09A58CB6D79D714A40A141696F23FBC7
+                        446149BBB119A704141A94EECC086964C629018506A53B3542D0BD7B67C09BBA
+                        AB51617446085223E667B359AEAE6A5848141A94EEC5085189A9B956DB398726
+                        E343E746F0B27EE9D08178F73B121477DF804283D241AFE6164977F368655936
+                        658B25F0DE750402737B600BFD89EBF065E3B7FAAAE05118ABA415A0FFA8A10E
+                        A2B2FA274275958548F1FFCA78FB951C0AE8FDD0040E8F7E536DAA0318E91B4D
+                        CFCCAFB7E53734C9486C5CAE11BC67ADEDB27025D4F2EEB7834236924797DFD6
+                        775960E649C31954E2BFFCD6EDB2F8C0AF056A730C751998270AAB51DDB13BE2
+                        50181CC99F3D7E5AB5622319898D6424369291D8484662A3D688BE085AFB24A9
+                        43C3D78E7F3977E44A28EC1C0D5F3BBE31D2D6065C08F0849DBE89A77F6851C3
+                        FD2F4DB71AD4B5B20117825337F11289C43E83C13FF828A5A869C5A61F000000
+                        0049454E44AE426082}
+                      FileName = 'E:\Controle de Patrimonio\Icons\salvar.png'
+                    end>
+                end
+              end
+            end
+            inherited Layout8: TLayout
+              inherited rct_Cancelar: TRectangle
+                inherited Image6: TImage
+                  MultiResBitmap.Height = 50
+                  MultiResBitmap.Width = 50
+                end
+              end
+            end
+          end
+        end
+        inherited Layout7: TLayout
+          inherited Label5: TLabel
+            TabOrder = 1
+          end
+          object edt_Nome: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            TextSettings.Font.Family = 'Segoe UI SEMIBOLD'
+            TextSettings.Font.Size = 14.000000000000000000
+            Position.X = 112.000000000000000000
+            Position.Y = 160.000000000000000000
+            Size.Width = 441.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'NOME DO TIPO DE PATRIMONIO'
+            StyledSettings = [Style, FontColor]
+            CharCase = ecUpperCase
+          end
+          object Label10: TLabel
+            StyledSettings = [Style, FontColor]
+            Position.X = 112.000000000000000000
+            Position.Y = 136.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Segoe UI Semibold'
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Nome:'
+            TabOrder = 7
+          end
+        end
+      end
+    end
+    inherited lay_Top: TLayout
+      inherited img_Fechar: TImage
+        MultiResBitmap.Height = 50
+        MultiResBitmap.Width = 50
+      end
+    end
+  end
+end
